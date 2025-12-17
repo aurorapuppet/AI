@@ -22,4 +22,4 @@
 使用 Docker Compose：
   docker-compose up --build
 
-下一步：实现文件上传与文本抽取。
+下一步：实现文件上传与文本抽取。 

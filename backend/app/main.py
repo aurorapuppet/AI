@@ -26,3 +26,4 @@ async def upload(file: UploadFile = File(...)):
     with open(path, "wb") as f:
         f.write(contents)
     return {"filename": file.filename, "path": path}
+ 
