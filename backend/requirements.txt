@@ -8,4 +8,5 @@ pydantic
 sentence-transformers
 httpx
 python-dotenv
- 
+openai
+dashscope

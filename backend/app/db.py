@@ -12,4 +12,7 @@ Base = declarative_base()
 metadata = MetaData()
 
 # 未来定义 Document / Chunk 表
- 
+def create_tables():
+	# create tables if not exist
+	from .models import Document, Chunk  # noqa: F401
+	Base.metadata.create_all(bind=engine)
