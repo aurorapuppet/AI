@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+psycopg[binary]
+SQLAlchemy
+alembic
+python-multipart
+pydantic
+sentence-transformers
+httpx
+python-dotenv
