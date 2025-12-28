@@ -3,6 +3,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import os
 
+# Load .env into environment (so backend/.env works when running locally)
+from dotenv import load_dotenv
+load_dotenv()
+
 app = FastAPI(title="AI Q&A Backend")
 
 app.add_middleware(
